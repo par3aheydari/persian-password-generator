@@ -24,6 +24,7 @@ git clone https://github.com/username/persian-password-generator.git
 4. Click "Copy" to copy the generated password to clipboard.
 
 ## Preview
+https://par3aheydari.github.io/persian-password-generator/
 
 ## License
 
