@@ -1,0 +1,105 @@
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
+
+body {
+  margin: 0;
+  font-family: 'Vazir', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77);
+  overflow: hidden;
+  color: #fff;
+}
+
+.container {
+  background: rgba(20,20,30,0.85);
+  backdrop-filter: blur(8px);
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-family: 'Vazir', sans-serif;
+}
+
+.fact {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Vazir', sans-serif;
+}
+
+.control label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Vazir', sans-serif;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 20px;
+  direction: rtl;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.options label {
+  cursor: pointer;
+  font-family: 'Vazir', sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  transition: all 0.3s ease;
+  font-family: 'Vazir', sans-serif; /* فونت دکمه‌ها */
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#copyBtn {
+  background: linear-gradient(45deg, #ff416c, #ffb347);
+}
+
+#password {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: rgba(0,0,30,0.3);
+  font-weight: bold;
+  font-size: 20px;
+  word-wrap: break-word;
+  text-align: center;
+  font-family: 'Vazir', sans-serif;
+}

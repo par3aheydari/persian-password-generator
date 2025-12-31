@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🌌 تولید رمز عبور</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🌌 تولید رمز عبور</h1>
+
+  <div class="fact" id="factBox"></div>
+
+  <div class="control">
+    <label for="length">طول رمز: <span id="lengthValue">12</span></label>
+    <input type="range" id="length" min="4" max="32" value="12">
+  </div>
+
+  <div class="options">
+    <label><input type="checkbox" id="includeUppercase" checked> حروف بزرگ</label>
+    <label><input type="checkbox" id="includeLowercase" checked> حروف کوچک</label>
+    <label><input type="checkbox" id="includeNumbers" checked> اعداد</label>
+    <label><input type="checkbox" id="includeSymbols"> نمادها</label>
+  </div>
+
+  <div class="buttons">
+    <button id="generateBtn">تولید رمز</button>
+    <button id="copyBtn">کپی</button>
+  </div>
+
+  <div id="password">رمز شما اینجا نمایش داده می‌شود</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
